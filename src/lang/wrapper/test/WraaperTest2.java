@@ -8,7 +8,7 @@ public class WraaperTest2 {
         double sum = 0;
 
         for (String s : array) {
-            sum += Double.valueOf(s);
+            sum += Double.parseDouble(s);
         }
         System.out.println("sum = " + sum);
     }
